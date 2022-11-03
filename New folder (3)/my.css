@@ -1,0 +1,145 @@
+/*Defoult css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.img{
+    max-width: 100%;
+
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+/*  header css*/
+.fixed-with{
+    width: 1270px;
+    margin: auto;
+}
+.heade{
+    background-color: #3498DB;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 100px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+
+}
+
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 50px;
+    border-right: 1px solid #fff;
+    transition: .4s;
+}
+.header-right ul li a:hover{
+    background-color: rgb(36, 153, 21);
+    
+
+}
+/* bannert */
+.banner{
+    background: url(./img/OIP.jfif) no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    background-color: aqua;
+}
+.banner-caption{
+    background: #d3d6d8;
+    
+}
+.banner-caption h1{
+    background: rgba(85, 83, 83, 0.4);
+    color: rgb(95, 15, 15);
+    padding: 40px 80px;
+    font-size: 34px;
+    border-radius: 5px;
+    height: 80px;
+    width: 800px;
+    
+}
+span{
+    background-color: #969156;
+    margin-bottom:40px;
+    margin-top: 10px;
+    padding: 7px;
+    margin-left: 20PX;
+    margin-bottom: 20PX;
+    text-shadow: #063250;
+    margin: 45px;
+    
+
+
+}
+/* aboutsection */
+.about{
+    margin-top: 60px;
+    
+}
+.about h2{
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 19px;
+}
+/*  service secion*/
+.service{
+margin-top: 50px;
+}
+.service-item{
+width:31.3%;
+float: left;
+background: rgb(228, 222, 222);
+border: 1px solid rgb(196, 193, 193);
+padding: 10px;
+box-sizing: border-box;
+margin-left: 1%;
+margin-right: 1%;
+padding: 25px10px;
+}
+.service-item span{
+display: block;
+height: 60px;
+width: 60px;
+background: #3498DB;
+color: #fff;
+margin: auto;
+font-size: 35px;
+line-height: 60px;
+border-radius: 20px 0 20px 0;
+}
+.service-item h3{
+margin: 20px 0;
+font-size: 30px;
+}
+
